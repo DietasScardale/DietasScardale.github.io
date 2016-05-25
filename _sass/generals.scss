@@ -71,16 +71,17 @@ body{
 
 @media print{
     .hidden-print{display:none}
+    h1, h2, h3{
+        font-size: 14px;
+    }
     .card{
-
         box-shadow: none!important;
-        margin: 0 auto!important;
-        padding: 1em 0!important;
         width: 100%!important;
-        font-size: 13px;
+        font-size: 10px;
         h1,h2,h3{margin:0!important}
     }
     .card:not(.hidden-print){
         display: block!important;/*allways display, although the interactivity hiddes them*/
     }
+    *{padding:0!important;margin-top:0!important;margin-bottom:0!important;box-shadow:none!important;}
 }
