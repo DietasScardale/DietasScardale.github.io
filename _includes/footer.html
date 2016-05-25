@@ -1,0 +1,52 @@
+<footer class="site-footer hidden-print">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><h4><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="icon">{% include svg/RSS.svg %}</span></a> Publicaciones</h4></li>
+          {% for post in site.posts %}
+            <li>
+
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </li>
+          {% endfor %}
+          <li>
+              <a href="https://www.facebook.com/dietascardalecordoba"><span class="icon">{% include svg/facebook.svg %}</span> <span class="username nowrap">dietascardalecordoba</span></a>
+          </li>
+        </ul>
+        <div class="bg-accent py1 px1">
+          <p>Entrega a domicilio sin cargo en toda la ciudad de Córdoba Capital.</p>
+          <ul class="social-media-list">
+              <li><h4><a href="https://www.facebook.com/dietascardalecordoba"><span class="icon sans-serif">{% include svg/profile-woman.svg %}</span></a> Contacto</h4></li>
+              <li>
+                  <a href="mailto:{{ site.email }}"><span class="icon">{% include svg/mail.svg %}</span> <span class="username nowrap">{{ site.email }}</span></a>
+              </li>
+              <li><a href="tel:+5493516668164"><span class="icon">{% include svg/phone.svg %}</span> <span class="username nowrap"><span class='nowrap'>0351 15 666 8164</span></span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-2">
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <small>
+          La dieta provista en esta página web fue extraída de <a href="http://www.elgastronomo.com.ar/dieta-medica-scarsdale/#ixzz1fpV3eV4y">elgastronomo.com.ar</a>.<br>
+        </small>
+        <div class="py1"></div>
+        <small>
+          Hosteado por <a href="http://github.com/" target="_blank">GitHub</a>.<br><a href="https://github.com/DietaScardale/DietaScardale.github.io" target="_blank">Ver código fuente del sitio.</a>
+        </small>
+      </div>
+    </div>
+
+  </div>
+<ul class="post-list">
+    
+  </ul>
+</footer>

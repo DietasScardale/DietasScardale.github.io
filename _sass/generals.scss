@@ -1,0 +1,86 @@
+.gradient{
+background: #0082e5;
+background: -moz-linear-gradient(top,  #0082e5 0%, #39c866 100%);
+background: -webkit-linear-gradient(top,  #0082e5 0%,#39c866 100%);
+background: linear-gradient(to bottom,  #0082e5 0%,#39c866 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0082e5', endColorstr='#39c866',GradientType=0 );
+}
+.gradient-2{
+background: #fdfdfd;
+background: -moz-linear-gradient(top,  #fdfdfd 20%, #0082e5 100%);
+background: -webkit-linear-gradient(top,  #fdfdfd 20%,#0082e5 100%);
+background: linear-gradient(to bottom,  #fdfdfd 20%,#0082e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#0082e5',GradientType=0 );
+}
+.btn{
+    line-height: 1;
+    padding: 0.5rem;
+}
+a.btn, span.btn{ display: inline-block }
+.btn:hover{
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.42)
+}
+.small{font-size:small}
+.small .icon svg{ width:12px }
+.block{display:block}
+.flex{display:flex}
+.flex-row{ flex-direction: row}
+.flex-justify-center{justify-content:center}
+.flex-justify-space-around{justify-content:space-around}
+.nowrap{white-space:nowrap}
+.card{max-width:550px;margin:0 auto}
+.lobster{ font-family: 'Lobster'!important}
+.serif{ font-family: serif; }
+.sans-serif{ font-family:'Poppins', sans-serif}
+html, body{padding:0;margin:0}
+body{
+  font-family:Helvetica Neue, Helvetica,Arial,sans-serif;
+  font-size: 20px;
+}
+.o-50{opacity:.50}
+.bg-cover{background-size:cover;}
+.tc{text-align:center}
+.tr{text-align:right}
+.white{color:white}
+.black{color:black!important}
+.bg-white{background-color:white}
+.bg-accent{background-color: #ffa}
+.text-shadow{text-shadow: 0px 1px 0.5px #777, 0px -1px 0.5px #eee}
+.box-shadow{box-shadow: 0px -2px 4px #eee, 0px 2px 4px #777}
+.px1{ padding-left: 0.5rem; padding-right: 0.5rem }
+.px2{ padding-left: 1rem; padding-right: 1rem }
+.px3{ padding-left: 2rem; padding-right: 2rem }
+.px4{ padding-left: 4rem; padding-right: 4rem }
+
+.py1{ padding-top: 0.5rem; padding-bottom: 0.5rem }
+.py2{ padding-top: 1rem; padding-bottom: 1rem }
+.py3{ padding-top: 2rem; padding-bottom: 2rem }
+.py4{ padding-top: 4rem; padding-bottom: 4rem }
+
+.mx1{ margin-left: 0.5rem; margin-right: 0.5rem }
+.mx2{ margin-left: 1rem; margin-right: 1rem }
+.mx3{ margin-left: 2rem; margin-right: 2rem }
+.mx4{ margin-left: 4rem; margin-right: 4rem }
+
+.my1{ margin-top: 0.5rem; margin-bottom: 0.5rem }
+.my2{ margin-top: 1rem; margin-bottom: 1rem }
+.my3{ margin-top: 2rem; margin-bottom: 2rem }
+.my4{ margin-top: 4rem; margin-bottom: 4rem }
+
+@media print{
+    .hidden-print{display:none}
+    .card{
+
+        box-shadow: none!important;
+        margin: 0 auto!important;
+        padding: 1em 0!important;
+        width: 100%!important;
+        font-size: 13px;
+        h1,h2,h3{margin:0!important}
+    }
+    .card:not(.hidden-print){
+        display: block!important;/*allways display, although the interactivity hiddes them*/
+    }
+}

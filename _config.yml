@@ -1,0 +1,13 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Dietas Scardale Córdoba
+email: acanopenseroli@gmail.com
+description: "El método Scardale para bajar 7KG en 15 días a través de una alimentación saludable."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://DietasScardale.github.io" # the base hostname & protocol for your site
