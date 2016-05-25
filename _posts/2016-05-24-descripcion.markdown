@@ -2,7 +2,7 @@
 layout: post
 title:  "Dieta Médica Scardale"
 date:   2016-05-24 20:53:02 -0300
-categories: jekyll update
+categories: descripción
 ---
 
 
