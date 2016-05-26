@@ -9,5 +9,5 @@
 title: Dietas Scardale Córdoba
 email: acanopenseroli@gmail.com
 description: "Método Scardale para bajar de peso sin pasar hambre, mediante una alimentación equilibrada."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/DietasScardale" # the subpath of your site, e.g. /blog
 url: "https://DietasScardale.github.io" # the base hostname & protocol for your site
